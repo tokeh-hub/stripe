@@ -266,7 +266,7 @@ p {
 }
 .submenu::before {
   content: '';
-  display: none;
+  display: block;
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -279,6 +279,9 @@ p {
 }
 .submenu.show {
   display: block;
+}
+.sub{
+  display: none;
 }
 .submenu-center {
   display: grid;
