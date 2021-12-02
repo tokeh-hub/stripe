@@ -256,7 +256,7 @@ p {
   box-shadow: var(--dark-shadow);
   position: absolute;
   top: 4rem;
-  left: 47%;
+  left: 50%;
   transform: translateX(-50%);
   display: none;
   z-index: 3;
