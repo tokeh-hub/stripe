@@ -2,7 +2,7 @@ import React,{useState,useContext} from "react";
 import sublinks from './data'
 const AppContext = React.createContext();
 export const AppProvider = ({children}) => {
-    const[isSubmenuOpen,setIsSubmenuOpen] = useState(true)
+    const[isSubmenuOpen,setIsSubmenuOpen] = useState(false)
     const[isSidebarOpen,setIsSidebarOpen] = useState(false)
     const [location,setLocation] = useState({})
     const[page,setPage] = useState({page:'',links:[]})
