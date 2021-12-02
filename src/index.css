@@ -371,11 +371,12 @@ p {
   .hero-info p {
     font-size: 1.25rem;
   }
-  .sidebar-wrapper.show {
-    visibility: hidden;
-    z-index: 2;
-    transform: scale(1);
-  }
+  
+  
+    .sidebar-wrapper {
+      display: none;
+    }
+  
 
 }
 @media screen and (min-width: 1200px) {
